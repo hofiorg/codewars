@@ -1,5 +1,4 @@
 module.exports =
-
   function GetSum(a, b) {
     return sum(a <= b?a:b, a <= b?b:a);
 };

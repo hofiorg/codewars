@@ -1,5 +1,4 @@
 module.exports =
-
   function spinWords(words) {
     let word_array = words.split(" ");
     word_array = word_array.map(spinWord);

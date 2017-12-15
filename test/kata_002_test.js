@@ -9,6 +9,5 @@ describe('kata_002', function() {
     it('#02 GetSum()', function() {
       assert.equal(1, GetSum(0,1));
     });
-
   });
 });
