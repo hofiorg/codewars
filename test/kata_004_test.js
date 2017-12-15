@@ -18,7 +18,6 @@ describe('kata_004', function() {
     it('#05 validParentheses()', function() {
       assert.equal(true, validParentheses("(())((()())())"));
     });
-
     it('#06 validParentheses()', function() {
       assert.equal(false, validParentheses(")("));
     });
