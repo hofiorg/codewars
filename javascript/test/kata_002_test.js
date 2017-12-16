@@ -9,7 +9,7 @@ describe('kata_002', function() {
       assert.equal(-1, GetSum(0,-1));
     });
     it('#02 GetSum()', function() {
-      assert.equal(12, GetSum(0,1));
+      assert.equal(1, GetSum(0,1));
     });
   });
 });
