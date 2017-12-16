@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55f2b110f61eb01779000053
+
 let assert = require('assert');
 let GetSum = require('../src/kata_002.js');
 

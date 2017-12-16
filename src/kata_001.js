@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5264d2b162488dc400000001
+
 module.exports =
   function spinWords(words) {
     let word_array = words.split(" ");
