@@ -6,3 +6,5 @@ matrix:
         - "9"
       before_script:
         - cd javascript
+      script:
+        - npm test
