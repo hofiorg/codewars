@@ -11,6 +11,6 @@ public class Kata_504_test {
     assertEquals(1, Kata_504.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0,0,0,1))));
     assertEquals(15, Kata_504.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1,1,1,1))));
     assertEquals(6, Kata_504.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(0,1,1,0))));
-    assertEquals(19, Kata_504.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1,0,0,1))));
+    assertEquals(9, Kata_504.ConvertBinaryArrayToInt(new ArrayList<>(Arrays.asList(1,0,0,1))));
   }
 }
