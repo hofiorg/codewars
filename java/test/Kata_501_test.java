@@ -3,11 +3,11 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class Kata_007_test {
+public class Kata_501_test {
   @Test
   public void test() {
     System.out.println("printerError Fixed Tests");
     String s="aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz";
-    assertEquals("3/56", Kata_007.printerError(s));
+    assertEquals("3/56", Kata_501.printerError(s));
   }
 }

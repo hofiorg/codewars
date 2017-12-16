@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Kata_009_best {
+public class Kata_503_best {
   public static int findIt(int[] A) {
     int xor = 0;
     for (int i = 0; i < A.length; i++) {

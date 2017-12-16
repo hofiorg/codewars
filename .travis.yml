@@ -4,7 +4,5 @@ matrix:
       node_js:
         - "node"
         - "9"
-      before_script:
-        - cd javascript
-      script:
-        - npm test
+
+    - language: java

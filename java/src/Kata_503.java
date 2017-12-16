@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Kata_009 {
+public class Kata_503 {
   public static int findIt(int[] numbers) {
     return Arrays.stream(numbers).filter(num ->
       Arrays.stream(numbers).filter((a) -> a == num).count() % 2 != 0

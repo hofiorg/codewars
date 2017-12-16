@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class Kata_008 {
+public class Kata_502 {
   public String toJadenCase(String phrase) {
     if(phrase == null || phrase.length() < 1)
       return null;

@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+sourceSets {
+  main {
+    java {
+      srcDir 'java/src'
+    }
+  }
+  test {
+    java {
+      srcDirs = ["java/test"]
+    }
+  }
+}
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+}

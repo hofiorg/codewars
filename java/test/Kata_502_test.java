@@ -5,8 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-public class Kata_008_test {
-  private Kata_008 jadenCase = new Kata_008();
+public class Kata_502_test {
+  private Kata_502 jadenCase = new Kata_502();
 
   @Test
   public void test() {

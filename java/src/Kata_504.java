@@ -2,7 +2,7 @@
 
 import java.util.List;
 
-public class Kata_010 {
+public class Kata_504 {
   public static int ConvertBinaryArrayToInt(List<Integer> binary) {
     int result = 0;
     for (int i = 0; i < binary.size(); i++) {
