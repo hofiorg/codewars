@@ -6,3 +6,5 @@ matrix:
         - "9"
 
     - language: java
+      jdk:
+        - oraclejdk8
