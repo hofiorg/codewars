@@ -2,3 +2,8 @@
 
 My solutions to challenges on [codewars.com](http://codewars.com)
 
+## Installation
+
+`npm install`
+
+`npm test`

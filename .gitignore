@@ -1,6 +1,6 @@
 .idea
 node_modules
 *.iml
-out
 build
 .gradle
+package-lock.json
