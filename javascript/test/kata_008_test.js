@@ -12,8 +12,8 @@ describe('kata_008', function() {
       assert.equal(queueTime([1,2,3,4,5], 100), 5);
     });
 
-    /*it("Additional tests",function() {
+    it("Additional tests",function() {
       assert.equal(queueTime([38,5,15,32,33,3,45,45,6,26,26,4,10,18,7,50,38,26,7,44,38], 4), 141);
-    });*/
+    });
   });
 });
