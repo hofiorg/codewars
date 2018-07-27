@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha javascript/test"
+    "test": "mocha javascript/test --reporter nyan"
   },
   "devDependencies": {
     "mocha": "4.0.1"
