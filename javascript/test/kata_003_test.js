@@ -6,13 +6,13 @@ let uniqueInOrder = require('../src/kata_003.js');
 describe('kata_003', function() {
   describe('Unique In Order', function() {
     it('#01 uniqueInOrder()', function() {
-      assert.deepEqual(['A','B','C','D','A','B'], uniqueInOrder('AAAABBBCCDAABBB'));
+      assert.deepEqual(uniqueInOrder('AAAABBBCCDAABBB'), ['A','B','C','D','A','B']);
     });
     it('#02 uniqueInOrder()', function() {
-      assert.deepEqual(['A', 'B', 'C', 'c', 'A', 'D'], uniqueInOrder('ABBCcAD'));
+      assert.deepEqual(uniqueInOrder('ABBCcAD'), ['A', 'B', 'C', 'c', 'A', 'D']);
     });
     it('#03 uniqueInOrder()', function() {
-      assert.deepEqual([1,2,3], uniqueInOrder([1,2,2,3,3]));
+      assert.deepEqual(uniqueInOrder([1,2,2,3,3]), [1,2,3]);
     });
   });
 });

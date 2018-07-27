@@ -1,11 +1,11 @@
 // https://www.codewars.com/kata/56541980fa08ab47a0000040
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class Kata_501_test {
+class Kata_501_test {
   @Test
-  public void test() {
+  void test() {
     System.out.println("printerError Fixed Tests");
     String s="aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz";
     assertEquals("3/56", Kata_501.printerError(s));

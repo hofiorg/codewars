@@ -1,25 +1,24 @@
 // https://www.codewars.com/kata/5390bac347d09b7da40006f6
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class Kata_502_test {
+class Kata_502_test {
   private Kata_502 jadenCase = new Kata_502();
 
   @Test
-  public void test() {
-    assertEquals("toJadenCase doesn't return a valide JadenCase String! try again please :)", jadenCase.toJadenCase("most trees are blue"), "Most Trees Are Blue");
+  void test() {
+    assertEquals("Most Trees Are Blue", jadenCase.toJadenCase("most trees are blue"), "toJadenCase doesn't return a valide JadenCase String! try again please :)");
   }
 
   @Test
-  public void testNullArg() {
-    assertNull("Must return null when the arg is null", jadenCase.toJadenCase(null));
+  void testNullArg() {
+    assertNull(jadenCase.toJadenCase(null), "Must return null when the arg is null");
   }
 
   @Test
-  public void testEmptyArg() {
-    assertNull("Must return null when the arg is null", jadenCase.toJadenCase(""));
+  void testEmptyArg() {
+    assertNull(jadenCase.toJadenCase(""), "Must return null when the arg is null");
   }
 }
