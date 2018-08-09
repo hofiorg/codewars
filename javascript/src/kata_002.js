@@ -1,9 +1,8 @@
 // https://www.codewars.com/kata/55f2b110f61eb01779000053
 
-module.exports =
-  function GetSum(a, b) {
+function GetSum(a, b) {
     return sum(a <= b?a:b, a <= b?b:a);
-};
+}
 
 function sum(from, till) {
   let result = 0;
@@ -13,4 +12,5 @@ function sum(from, till) {
   return result;
 }
 
+module.exports = GetSum;
 

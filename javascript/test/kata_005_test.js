@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/556deca17c58da83c00002db
 
-let assert = require('assert');
-let tribonacci = require('../src/kata_005.js');
+const assert = require('assert');
+const tribonacci = require('../src/kata_005.js');
 
 describe('kata_005', function() {
   describe('Tribonacci Sequence', function() {

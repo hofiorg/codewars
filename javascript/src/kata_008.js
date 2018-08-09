@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
-module.exports = function queueTime(customers, n) {
+function queueTime(customers, n) {
   if(customers.length < 1)
     return 0;
   let lines = new Array(n).fill(0);
@@ -15,4 +15,6 @@ module.exports = function queueTime(customers, n) {
   while(lines.reduce((a, b) => a + b) > 0 || customers.length > 0);
 
   return cnt;
-};
+}
+
+module.exports = queueTime;

@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
 
-let assert = require('assert');
-let revrot = require('../src/kata_007.js');
+const assert = require('assert');
+const revrot = require('../src/kata_007.js');
 
 describe('kata_007', function() {
   describe('Reverse or rotate?', function() {

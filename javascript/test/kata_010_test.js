@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/537e18b6147aa838f600001b
 
-let assert = require('assert');
-let justify = require('../src/kata_010.js');
+const assert = require('assert');
+const justify = require('../src/kata_010.js');
 
 describe('kata_010', function(){
   describe('Text align justify', function() {

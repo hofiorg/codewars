@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/52774a314c2333f0a7000688
 
-module.exports = function validParentheses(parens) {
+function validParentheses(parens) {
   let n = 0;
   parens.split('').every((ch) => {
     if (ch === '(')
@@ -11,4 +11,6 @@ module.exports = function validParentheses(parens) {
       return ch;
   });
   return n === 0;
-};
+}
+
+module.exports = validParentheses;

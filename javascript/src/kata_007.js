@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
 
-module.exports = function revrot(str, sz) {
+function revrot(str, sz) {
   if(sz <= 0 || sz > str.length)
     return '';
 
@@ -8,7 +8,7 @@ module.exports = function revrot(str, sz) {
     .filter(chunk => chunk.length === sz)
     .map(chunk => (sumDigits(chunk) % 2 === 0)?reverseChunk(chunk):rotateChunk(chunk))
     .join('');
-};
+}
 
 function chunkString(str, length) {
   return str.match(new RegExp('.{1,' + length + '}', 'g'));
@@ -25,3 +25,5 @@ function rotateChunk(s) {
 function sumDigits(s) {
   return s.split('').reduce((a, b) => parseInt(a) + parseInt(b));
 }
+
+module.exports = revrot;

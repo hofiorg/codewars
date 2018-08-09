@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/5263c6999e0f40dee200059d
 
-let assert = require('assert');
-let getPINs = require('../src/kata_009.js');
+const assert = require('assert');
+const getPINs = require('../src/kata_009.js');
 
 describe('kata_009', function() {
   describe('The observed PIN', function() {

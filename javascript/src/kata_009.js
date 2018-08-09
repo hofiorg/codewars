@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/5263c6999e0f40dee200059d
 
-module.exports = function getPINs(observed) {
+function getPINs(observed) {
 
   let variations = {
     '1': ['1', '2', '4'],
@@ -22,4 +22,6 @@ module.exports = function getPINs(observed) {
     .map((i) => variations[i])
     .reduce((a, b) => flat(a.map((x) => b.map((y) => x + y))))
   );
-};
+}
+
+module.exports = getPINs;

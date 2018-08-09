@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/537e18b6147aa838f600001b
 
-module.exports = function justify(str, len) {
+function justify(str, len) {
 
   const replaceAt = (string, index, replace) => string.substring(0, index) + replace + string.substring(index + 1);
 
@@ -32,4 +32,6 @@ module.exports = function justify(str, len) {
   }).reduce((a, b) => a + '\n' + b);
 
   return result;
-};
+}
+
+module.exports = justify;

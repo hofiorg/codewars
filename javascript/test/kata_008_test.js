@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/57b06f90e298a7b53d000a86
 
-let assert = require('assert');
-let queueTime = require('../src/kata_008.js');
+const assert = require('assert');
+const queueTime = require('../src/kata_008.js');
 
 describe('kata_008', function() {
   describe('The Supermarket Queue', function() {
