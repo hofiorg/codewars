@@ -13,3 +13,5 @@ function revrot(str, sz) {
     .map(c => sum_cubes(c) % 2 ? rotate(c) : reverse(c))
     .join('');
 }
+
+module.exports = revrot;

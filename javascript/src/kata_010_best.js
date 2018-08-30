@@ -22,3 +22,5 @@ function justify(str, len) {
   lastLine && lines.push(lastLine);
   return lines.join('\n');
 }
+
+module.exports = justify;

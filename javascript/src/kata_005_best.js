@@ -6,3 +6,5 @@ function tribonacci(signature,n){
   }
   return signature.slice(0, n); //return trib - length of n
 }
+
+module.exports = tribonacci;

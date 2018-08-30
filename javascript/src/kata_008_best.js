@@ -8,3 +8,5 @@ function queueTime(customers, n) {
   }
   return Math.max(...w);
 }
+
+module.exports = queueTime;

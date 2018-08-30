@@ -6,3 +6,5 @@ function humanReadable(seconds) {
     pad(parseInt(seconds / 60 % 60)) + ":" +
     pad(seconds % 60)
 }
+
+module.exports = humanReadable;
