@@ -1,9 +1,0 @@
-matrix:
-  include:
-    - language: node_js
-      node_js:
-        - "node"
-        - "9"
-
-    - language: java
-      jdk: oraclejdk8
