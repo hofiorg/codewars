@@ -3,6 +3,5 @@ node_modules
 *.iml
 build
 .gradle
-package-lock.json
 !/.idea/runConfigurations/*.xml
 !/.idea/runConfigurations/
